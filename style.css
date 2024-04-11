@@ -1,0 +1,67 @@
+.button {
+    background-color: #47DF5D;
+    color: white;
+    border-radius: 0.4em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #34911d;
+}
+ 
+
+#GetCat {
+    width: 6em;
+    height: 3em;
+}
+
+#Prestige {
+    width: 10em;
+    height: 3em;
+}
+
+#PurchaseMult {
+    width: 10em;
+    height: 3em;
+}
+
+#mainbuttons {
+    left: calc(50% - 8em);
+    top: 70%;
+    width: 16em;
+    height: 3em;
+    background-color: grey;
+    position: absolute;
+    display: flex;
+    align-items: center
+}
+
+#mainbuttons > .button {
+    float: left;
+}
+
+#FishDiv {
+    height: 1em;
+    width: 7em;
+}
+
+#FishDiv > * {
+    float: left;
+}
+
+#FishDiv > span {
+    height: 1em;
+    width: 4em;
+}
+
+#PrestigeDev {
+    float: left;
+}
+
+.fishimg {
+    height: 1em;
+    width: 1em;
+    background-image: url('Resources/fish.png');
+}
